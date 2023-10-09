@@ -5,6 +5,7 @@
   align-items: center;
   background-color: var(--bg-color-primary);
   padding: 10px 50px;
+  border-bottom: 2px solid #7f8591;
 }
 .cues {
   background: #f8ee00;

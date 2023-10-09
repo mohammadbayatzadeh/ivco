@@ -1,0 +1,10 @@
+.container {
+  width: 80%;
+  -webkit-clip-path: polygon(5% 100%, 95% 100%, 100% 0, 0 0);
+  clip-path: polygon(5% 100%, 95% 100%, 100% 0, 0 0);
+  background-color: var(--bg-color-primary);
+  padding: 15px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
