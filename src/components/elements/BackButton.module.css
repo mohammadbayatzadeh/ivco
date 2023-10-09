@@ -1,0 +1,46 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(30, 36, 62);
+  background: linear-gradient(
+    140deg,
+    rgba(30, 36, 62, 1) 0%,
+    rgba(30, 36, 62, 1) 50%,
+    rgba(87, 96, 129, 1) 100%
+  );
+  padding: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.container {
+  background: rgb(243, 0, 214);
+  background: linear-gradient(
+    156deg,
+    rgba(243, 0, 214, 1) 0%,
+    rgba(243, 0, 214, 1) 70%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.circular {
+  font-size: 1.5em;
+  color: black;
+  border-radius: 50%;
+  background: rgb(243, 0, 214);
+  background: linear-gradient(
+    336deg,
+    rgba(243, 0, 214, 1) 0%,
+    rgba(243, 0, 214, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
+}
