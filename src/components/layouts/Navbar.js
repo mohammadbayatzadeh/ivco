@@ -1,9 +1,9 @@
 import React from "react";
-import BackButton from "../elements/BackButton";
+import BackButton from "../elements/buttons/BackButton";
 import styles from "./Navbar.module.css";
-import InfoButton from "../elements/InfoButton";
-import ItemButtons from "../elements/ItemButtons";
-import ShopButton from "../elements/ShopButton";
+import InfoButton from "../elements/buttons/InfoButton";
+import ItemButtons from "../elements/buttons/ItemButtons";
+import ShopButton from "../elements/buttons/ShopButton";
 
 function Navbar() {
   return (
