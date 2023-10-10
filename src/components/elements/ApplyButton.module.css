@@ -11,7 +11,7 @@
     rgba(87, 96, 129, 1) 100%
   );
   padding: 3px;
-  margin-right: auto;
+  margin: 0 20px;
   cursor: pointer;
 }
 
@@ -27,23 +27,22 @@
   padding: 5px;
 }
 
-
 .circular {
-    font-size: 1.5em;
-    color: black;
-    border-radius: 7px;
-    padding: 3px;
-    background: rgb(202, 248, 0);
-    background: linear-gradient(
-      336deg,
-      rgba(202, 248, 0, 1) 0%,
-      rgba(202, 248, 0, 1) 50%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
-  }
+  font-size: 1.2em;
+  color: black;
+  border-radius: 7px;
+  padding: 3px;
+  background: rgb(202, 248, 0);
+  background: linear-gradient(
+    336deg,
+    rgba(202, 248, 0, 1) 0%,
+    rgba(202, 248, 0, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1.5px 1.5px 1px 0px rgba(0, 0, 0, 0.5);
+}
