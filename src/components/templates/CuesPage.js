@@ -10,6 +10,11 @@ function CuesPage() {
       <Navbar />
       <Filter />
       <Cue />
+      <Cue />
+      <Cue />
+      <Cue />
+      <Cue />
+      <Cue />
     </div>
   );
 }
